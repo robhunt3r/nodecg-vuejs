@@ -1,0 +1,8 @@
+/**
+We need this so the compiler resolves font paths.
+Usage:
+  @font-face {
+    src: url($font-path + 'myfont.otf';
+  }
+ */
+$font_path: resolve('@styles/fonts/');

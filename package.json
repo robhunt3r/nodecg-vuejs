@@ -2,6 +2,27 @@
   "name": "nodecg-vuejs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/robhunt3r/nodecg-vuejs",
+  "author": {
+    "name": "Robert Hunter",
+    "email": "robhunt3r@gmail.com",
+    "url": "https://github.com/robhunt3r"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "graphics": [
+      {
+        "file": "alerts.html",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

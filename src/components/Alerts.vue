@@ -15,7 +15,7 @@ export default {
   },
   mounted: function () {
     this.$nextTick(function () {
-      this.$nodecg.listenFor('nodecg-vue-test', function (data) {
+      this.$nodecg.listenFor('nodecg-vue-test', (data) => {
         this.message = data
       })
     })
